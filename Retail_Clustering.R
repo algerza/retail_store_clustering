@@ -10,11 +10,9 @@
  require(cluster)
  require(fpc)
  require(dplyr)
- install.packages("factoextra")
- library(factoextra)
- library(gridExtra)
- install.packages("plotly")
- library(plotly)
+ require(factoextra)
+ require(gridExtra)
+ require(plotly)
  packageVersion('plotly')
 
 
